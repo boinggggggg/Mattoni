@@ -1,17 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-package com.mycompany.produzionemattoni;
-
-import java.util.ArrayList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
-/**
- *
- * @author frida
- */
-public class ProduttoreMattoni implements Runnable {
+public class Produzione implements Runnable {
 
     private int codiceThreadProduttore;
     private ArrayList<Mattone> mattoniStampatiList;
